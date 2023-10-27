@@ -85,3 +85,30 @@ h5,h4{
     color: #3c3c54;
     border-bottom: thin dashed;
 }
+
+footer {
+    background-color: rgb(58, 80, 111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    border-radius: 1rem; /* Opcional: ajusta la altura según tus necesidades */
+}
+
+.row.menu ul {
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    text-align: center; /* Alinea el texto en el centro horizontalmente */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center; /* Alinea el texto en el centro horizontalmente */
+}
+
+/* Agrega este estilo para centrar los elementos dentro del footer */
+.row.d-block {
+    text-align: center;
+}
