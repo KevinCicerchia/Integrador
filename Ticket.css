@@ -1,4 +1,3 @@
-* Tus estilos comunes */
 .verde {
     color: rgb(0, 148, 0);
 }
@@ -73,12 +72,11 @@ footer a {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: -4%;
-    padding: 13%; /* Ajusta este valor según tus preferencias */
+    padding: 12%; 
 }
 
 .container-form {
-    margin-top: 20px; /* Ajusta este valor según tus preferencias */
+    margin-top: 1px; 
 }
 
 
@@ -88,5 +86,5 @@ footer a {
 
 .container-80vh {
     height: 80vh;
-    margin-top: -1%;
+    margin-top: -7%;
 }
