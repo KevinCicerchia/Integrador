@@ -6,7 +6,6 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" type="text/css" href="Ticket.css">
 </head>
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
@@ -27,7 +26,7 @@
       </div>
     </nav>
   </header>
-<body>
+  <body>
     <main class="main-centrado">
         <div class="container container-80vh">
             <div class="square square1">
@@ -50,62 +49,59 @@
             </div>
         </div>
         <div class="title-container">
-            <h5>VENTA</h5>
-        </div>
-            <div class="title-container"></div>
-            <h1>VALOR DEL TICKET $200</h1>
-        </div>
+            <h5>VENTA</h5></div>
+        <h1>VALOR DEL TICKET $200</h1>
         <div class="container-form">
-                    <div class="squarex">
-                        <form>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <label for="firstName" class="form-label"></label>
-                                    <input type="text" class="form-control" id="firstName" placeholder="Nombre">
-                                </div>
-                                <div class="col-sm-6">
-                                    <label for="lastName" class="form-label"></label>
-                                    <input type="text" class="form-control" id="lastName" placeholder="Apellido">
-                                </div>
-                                <div class="col-12">
-                                    <label for="email" class="form-label"><span class="text-body-secondary"></span></label>
-                                    <input type="email" class="form-control" id="email" placeholder="Correo@ejemplo.com">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <label for="firstName" class="form-label">Cantidad</label>
-                                    <input type="text" class="form-control" id="firstName" placeholder="Cantidad">
-                                </div>
-                                <div class="col-sm-6">
-                                    <label for="lastName" class="form-label">Categoria</label>
-                                    <select class="form-select" id="lastName" required>
-                                        <option value="" selected disabled>Selecciona una opción</option>
-                                        <option value="opcion1">Estudiante</option>
-                                        <option value="opcion2">Trainee</option>
-                                        <option value="opcion3">Junior</option>
-                                    </select>
-                                </div>
-                                <div class="col-12">
-                                    <label for="email" class="form-label"><span class="text-body-secondary"></span></label>
-                                    <input type="text" class="form-control" id="email" placeholder="Total a Pagar: $">
-                                </div>
-                                <div class="col-sm-6">
-                                    <label for="firstName" class="form-label"></label>
-                                    <input type="button" class="form-control" id="firstName" placeholder="Nombre">
-                                </div><div class="col-sm-6">
-                                    <label for="firstName" class="form-label"></label>
-                                    <input type="button" class="form-control" id="firstName" placeholder="Nombre">
-                                </div>
-                        </form>
+            <div class="squarex">
+                <form>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label for="firstName" class="form-label"></label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Nombre">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="lastName" class="form-label"></label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Apellido">
+                        </div>
+                        <div class="col-12">
+                            <label for="email" class="form-label"><span class="text-body-secondary"></span></label>
+                            <input type="email" class="form-control" id="email" placeholder="Correo@ejemplo.com">
+                        </div>
                     </div>
-                </div>
-            </div>
-        </main>
-                </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label for="cantidad" class="form-label">Cantidad</label>
+                            <input type="text" class="form-control" id="cantidad" placeholder="Cantidad">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="categoria" class="form-label">Categoría</label>
+                            <select class="form-select" id="categoria" required>
+                                <option value="" selected disabled>Selecciona una opción</option>
+                                <option value="opcion1">Estudiante</option>
+                                <option value="opcion2">Trainee</option>
+                                <option value="opcion3">Junior</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label for="total" class="form-label"></label>
+                            <input type="text" class="form-control" id="total" placeholder="Total a Pagar: $" readonly>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="firstName" class="form-label"></label>
+                            <input type="button" class="form-control" id="firstName" placeholder="Nombre">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="lastName" class="form-label"></label>
+                            <input type="button" class="form-control" id="lastName" placeholder="Apellido">
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </main>
+</body>
+
 <footer>
     <ul>
         <li><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
@@ -117,4 +113,7 @@
         <li><a href="estudiantes.html">Estudiantes</a></li>
     </ul>
 </footer>
+</footer>
+<link rel="stylesheet" type="text/css" href="Ticket.css">
+</html>
 </html>

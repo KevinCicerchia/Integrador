@@ -1,11 +1,18 @@
 .verde {
     color: rgb(0, 148, 0);
 }
-
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -1%;
 }
 
 .square {
@@ -15,12 +22,12 @@
     text-align: center;
     padding: 10px;
     border-radius: 5px;
-    margin: 0 2px;
     border: 2px solid black;
+    margin: 0 2px;
 }
 
 .square p {
-    margin: -2px 0;
+    margin: -1px 0;
 }
 
 .square.square1 {
@@ -40,15 +47,37 @@
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 30px;
-    border-radius: 5px;
+    border-radius: 2px;
+    margin-top: 1%;
+}
+
+.main-centrado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 7%;
+    margin-top: -4%;
+}
+
+.title-container {
+    margin-top: 1%;
+}
+
+.container-form {
+    margin-top: 1%;
+}
+
+.custom-input {
+    height: 50px;
 }
 
 footer {
     background: linear-gradient(to right, #1a1a1a, #0d4683);
     color: white;
     text-align: center;
-    padding: 17px;
+    padding: 15px;
 }
 
 footer ul {
@@ -58,7 +87,7 @@ footer ul {
 
 footer ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 2%;
 }
 
 footer a {
@@ -66,25 +95,6 @@ footer a {
     color: white;
 }
 
-.main-centrado {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 12%; 
-}
-
-.container-form {
-    margin-top: 1px; 
-}
-
-
 .col-sm-6 {
     align-self: flex-start;
-}
-
-.container-80vh {
-    height: 80vh;
-    margin-top: -7%;
 }
