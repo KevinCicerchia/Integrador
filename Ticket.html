@@ -89,11 +89,11 @@
                         </div>
                         <div class="col-sm-6">
                             <label for="firstName" class="form-label"></label>
-                            <input type="button" class="form-control" id="firstName" placeholder="Nombre">
+                            <input type="button" class="form-control" id="firstName" value="Borrar" onclick="limpiarCampos()">
                         </div>
                         <div class="col-sm-6">
                             <label for="lastName" class="form-label"></label>
-                            <input type="button" class="form-control" id="lastName" placeholder="Apellido">
+                            <input type="button" class="form-control" id="lastName" value="Resumen">
                         </div>
                     </div>
                 </form>
@@ -101,7 +101,39 @@
         </div>
     </main>
 </body>
+<script>
+    function limpiarCampos() {
+        document.getElementById('firstName').value = '';
+        document.getElementById('lastName').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('cantidad').value = '';
+        document.getElementById('categoria').selectedIndex = 0;
+        document.getElementById('total').value = '';
+    }
+    
+    const resumenButton = document.querySelector('input[type="button"][value="Resumen"]');
+    const cantidadInput = document.getElementById('cantidad');
+    const categoriaSelect = document.getElementById('categoria');
+    const totalInput = document.getElementById('total');
+    
+    resumenButton.addEventListener('click', () => {
+        const cantidad = parseInt(cantidadInput.value);
+        const categoria = categoriaSelect.value;
+    
+        const descuentos = {
+            opcion1: 0.8,  
+            opcion2: 0.5,  
+            opcion3: 0.15  
+        };
 
+        const precioTicket = 200;
+        const descuento = descuentos[categoria] || 0;
+        const total = (cantidad * precioTicket * (1 - descuento)).toFixed(2);
+    
+        totalInput.value = `Total a Pagar: $${total}`;
+
+    });
+    </script>
 <footer>
     <ul>
         <li><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
