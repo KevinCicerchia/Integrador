@@ -1,3 +1,4 @@
+* Tus estilos comunes */
 .verde {
     color: rgb(0, 148, 0);
 }
@@ -73,22 +74,13 @@ footer a {
     align-items: center;
     height: 100vh;
     margin: -4%;
-    padding: 13%;
-}
-
-.title-container {
-    text-align: center;
-    margin-top: 1px;
-}
-
-.title-container h5,
-.title-container h1 {
-    margin: 1%;
+    padding: 13%; /* Ajusta este valor según tus preferencias */
 }
 
 .container-form {
-    margin-top: -12px;
+    margin-top: 20px; /* Ajusta este valor según tus preferencias */
 }
+
 
 .col-sm-6 {
     align-self: flex-start;
