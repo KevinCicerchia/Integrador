@@ -55,20 +55,10 @@
     background-color: rgb(128, 190, 35);
 }
 
-footer{
-    background-color: rgb(58, 80, 111);
-
-}
-
-#izquierda-footer{
-    text-align: center;
-}
-
 .row .menu ul{
     text-decoration: none;
     color: white;
     list-style-type: none;
-   
 }
 
 a{
@@ -92,23 +82,22 @@ footer {
     justify-content: center;
     align-items: center;
     height: 12vh;
-    border-radius: 1rem; /* Opcional: ajusta la altura según tus necesidades */
+    border-radius: 1rem;
 }
 
 .row.menu ul {
     text-decoration: none;
     color: white;
     list-style-type: none;
-    text-align: center; /* Alinea el texto en el centro horizontalmente */
+    text-align: center; 
 }
 
 a {
     text-decoration: none;
     color: white;
-    text-align: center; /* Alinea el texto en el centro horizontalmente */
+    text-align: center; 
 }
 
-/* Agrega este estilo para centrar los elementos dentro del footer */
 .row.d-block {
     text-align: center;
 }

@@ -1,0 +1,100 @@
+.verde {
+    color: rgb(0, 148, 0);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    width: 20%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 2px;
+    border: 2px solid black;
+}
+
+.square p {
+    margin: -2px 0;
+}
+
+.square.square1 {
+    border-color: rgb(0, 4, 234);
+}
+
+.square.square2 {
+    border-color: rgb(0, 192, 109);
+}
+
+.square.square3 {
+    border-color: rgb(245, 212, 0);
+}
+
+.squarex {
+    width: 100%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+footer {
+    background: linear-gradient(to right, #1a1a1a, #0d4683);
+    color: white;
+    text-align: center;
+    padding: 17px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-centrado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: -4%;
+    padding: 13%;
+}
+
+.title-container {
+    text-align: center;
+    margin-top: 1px;
+}
+
+.title-container h5,
+.title-container h1 {
+    margin: 1%;
+}
+
+.container-form {
+    margin-top: -12px;
+}
+
+.col-sm-6 {
+    align-self: flex-start;
+}
+
+.container-80vh {
+    height: 80vh;
+    margin-top: -1%;
+}
