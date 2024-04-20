@@ -80,6 +80,8 @@ body {
 .It{
     width: 20px;
     height: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Media query para responsive */
