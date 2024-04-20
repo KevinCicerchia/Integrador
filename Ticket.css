@@ -1,7 +1,10 @@
 .verde {
     color: rgb(0, 148, 0);
 }
+
 .container {
+    margin-top: 10px;
+    padding: 1px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,23 +15,24 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: -1%;
 }
 
 .square {
-    width: 30%;
-    background-color: #ffffff;
+    width: 100%;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 10px;
+    padding: auto;
+    border: auto;
     border-radius: 5px;
     border: 2px solid black;
-    margin: auto;
-    padding: auto;
+    margin: 0 5px; 
 }
 
 .square p {
-    margin: 1px;
+    margin: 0px;
+    text-align: center;
+    line-height: 1.2;
+    font-size: 14px;
 }
 
 .square.square1 {
@@ -45,7 +49,6 @@
 
 .squarex {
     display: flex;
-    width: 100%;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -58,9 +61,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    padding: 7%;
-    margin-top: -3%;
+    height: 85vh; /* Ajusta la altura del contenedor principal */
+    padding: 10px;
+    margin-top: 10vh;
+    margin-bottom: 100px; /* Agrega margen inferior para dejar espacio para el pie de página */
 }
 
 .title-container {
@@ -68,7 +72,7 @@
 }
 
 .container-form {
-    margin-top: 1%;
+    margin-top: -2vh;
 }
 
 .custom-input {
@@ -79,7 +83,8 @@ footer {
     background: linear-gradient(to right, #1a1a1a, #0d4683);
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
+    margin-top: 2vh;
 }
 
 footer ul {
@@ -89,7 +94,7 @@ footer ul {
 
 footer ul li {
     display: inline;
-    margin: 0 2%;
+    margin: auto;
 }
 
 footer a {
