@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     flex-direction: column;
     display: grid;
@@ -5,6 +7,10 @@ body {
     grid-template-rows: auto; /* Dos filas, 50% y 50% de alto */
     height: 100vh;
     margin: 0px;
+    border-style: solid;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .left-column,
@@ -12,8 +18,7 @@ body {
 .right-column {
     padding: 10px;
     border-style: solid;
-    margin: 0px 0;
-    line-height: 15px;
+    margin: 0px;
 }
 
 .middle-column {
@@ -27,8 +32,8 @@ body {
 
 .middle-column p,
 .middle-column h1 {
-    padding: 10px;
-    margin: 1px 0;
+    margin: 5px 0; 
+    padding: 5px 0;
     text-align: left;
     line-height: 15px; /* Puedes ajustar este valor según lo que necesites */
 }
@@ -42,8 +47,11 @@ body {
     /* Ocupa dos filas */
     border-width: 0px;
     text-align: left;
-    margin-top: -10px;
+    margin-top: 0px;
+    line-height: 15px;
 }
+
+
 .left-column {
     display: flex;
     flex-direction: column;
@@ -64,8 +72,8 @@ body {
 .left-column p,
 .left-column h2,
 .left-column h3 {
-    padding: 10px;
-    margin: 1px 0;
+    margin: 5px 0; 
+    padding: 5px 0;
     text-align: left;
 }
 
@@ -78,6 +86,7 @@ body {
 @media only screen and (max-width: 768px) {
     body {
         grid-template-columns: 50%;
+        border-width: 2px;
         /* Muestra las columnas divididas al 50% en patallas chicas */
     }
 
@@ -89,8 +98,16 @@ body {
         background-color: white;
         /* Cambia a blanco el color de los elementos indicados y agrega bordes */
         border-style: solid;
-        border-width: 1px;
+        border-width: 2px;
         text-align: center;
         }
+        .right-column p,
+.right-column h4,
+.right-column h3
+ {
+    margin: 5px 0; 
+    padding: 5px 0; 
+}
+
     
 }
