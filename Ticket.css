@@ -1,9 +1,10 @@
+/* Estilos base para dispositivos móviles */
 .verde {
     color: rgb(0, 148, 0);
 }
 
 .container {
-    margin-top: 10px;
+    margin-top: 3px;
     padding: 1px;
     display: flex;
     justify-content: center;
@@ -84,7 +85,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: 2vh;
+    margin-top: -5px;
 }
 
 footer ul {
@@ -104,4 +105,29 @@ footer a {
 
 .col-sm-6 {
     align-self: flex-start;
+}
+
+/* Media query para dispositivos de pantalla grande (escritorio) */
+@media only screen and (min-width: 768px) {
+    .container {
+        margin-top: -10vh;
+    }
+
+    .square {
+        width: 30%; /* Reducir el ancho en pantallas grandes */
+        text-align: center;
+        line-height: 1.5;
+        font-size: 20px;
+    }
+
+    .main-centrado {
+        margin-top: -1vh; /* Reducir el margen superior en pantallas grandes */
+        margin-bottom: 50px; /* Ajustar el margen inferior */
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
 }
