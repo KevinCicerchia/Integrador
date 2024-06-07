@@ -90,13 +90,15 @@ body {
     .middle-column,
     .right-column {
         grid-column: initial;
-        /* Reseta el lugar de la columna */
         background-color: rgba(0, 0, 0, 0.123);
-        /* Cambia a blanco el color de los elementos indicados y agrega bordes */
         border-width: 1px;
         text-align: center;
+        word-wrap: break-word; /* Añade esta línea */
+        padding: 10px; /* Añade esta línea */
         }
-        .right-column p,
+        .middle-column h1 {
+            font-size: 1.5em; /
+.right-column p,
 .right-column h4,
 .right-column h3
  {
