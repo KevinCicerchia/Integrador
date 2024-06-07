@@ -3,7 +3,7 @@
 body {
     flex-direction: column;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 50%;
     grid-template-rows: auto; /* Dos filas, 50% y 50% de alto */
     height: 100vh;
     margin: 0px;
@@ -93,7 +93,7 @@ body {
         /* Reseta el lugar de la columna */
         background-color: rgba(0, 0, 0, 0.123);
         /* Cambia a blanco el color de los elementos indicados y agrega bordes */
-        border-width: 2px;
+        border-width: 1px;
         text-align: center;
         }
         .right-column p,
